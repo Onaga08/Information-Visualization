@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    height: 400vh;
+    height: 100vh;
 }
 .header{
     width: 100%;
@@ -18,4 +18,36 @@ body{
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-dahefhahkjcbzba
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  display: none;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.content:target,
+.nav-link:default {
+  display: block;
+  color: white;
+}
